@@ -2,49 +2,53 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  color: #40514e;
+  color: #443e4c;
 }
 .top-container {
-  background-color: #eaf6f6;
+  background-color: #b9cced;
   position: relative;
-  padding-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .lidesc{
   font-weight: normal;
+  margin-bottom: 30px;
 }
 .pro{
   text-decoration: underline;
 }
 h1 {
-  font-size: 5.625rem;
-  margin: 50px auto 0 auto;
+  font-size: 7rem;
+  margin: 10px auto 0 auto;
   font-family: 'Sacramento', cursive;
-  color: #66BFBF;
+  color: #35477d;
   line-height: 2;
 }
 .top-cloud {
   position: absolute;
   right: 300px;
   top: 40px;
+  width: 5rem;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 250px;
-  bottom: 300px;
+  left: 300px;
+  bottom: 40px;
+  width: 5rem;
 }
 
 h2 {
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
-  color: #66BFBF;
+  color: #c06c84;
   font-weight: normal;
   padding-bottom: 10px;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  color: #6c5b7b;
 }
 
 .middle-container{
@@ -61,7 +65,7 @@ h3 {
 
 }
 hr {
-  border: dotted #eaf6f6 6px;
+  border: dotted #35477d 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
@@ -100,11 +104,11 @@ p{
 }
 .btn {
   margin-top: 20px;
-	box-shadow: 0 1px 0 0 #66BFBF;
-	background:linear-gradient(to bottom, #11999E 5%, #11adb2 100%);
-	background-color:#11999E;
+	box-shadow: 0 1px 0 0 #35477d;
+	background:linear-gradient(to bottom, #6c5b7b 5%, #35477d 100%);
+	background-color:#35477d;
 	border-radius:6px;
-	border:1px solid #11999E;
+	border:1px solid #35477d;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -113,10 +117,10 @@ p{
 	font-weight:bold;
 	padding:6px 24px;
 	text-decoration:none;
-	text-shadow:0 -1px 0 #5b6178;
+	text-shadow:0 -1px 0 #fffffa;
 }
 .btn:hover {
-	background:linear-gradient(to bottom, #11adb2 5%, #11999E 100%);
+	background:linear-gradient(to bottom, #35477d 5%, #6c5b7b 100%);
 	background-color:#11adb2;
 }
 .btn:active {
@@ -127,21 +131,21 @@ p{
 .bottom-container{
   margin-top: 50px;
   padding-top: 50px;
-  background-color: #66bfbf;
+  background-color: #b9cced;
   margin-bottom: 0;
   padding-bottom: 30px;
 }
 a{
-  color: #11999E;
+  color: #35477d;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
-a:hover{
-  color: #eaf6f6;
+.footer-link:hover{
+  color: #6c5b7b;
 }
 .copyright-desc{
-  color: #eaf6f6;
+  color: #6c5b7b;
   font-size: 0.75rem;
   padding: 20px 0;
 }
